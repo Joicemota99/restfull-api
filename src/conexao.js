@@ -8,7 +8,7 @@ const pool = new Pool({
     user: 'postgres',
     password: process.env.DB_PSW,
     port: 5432,
-    database: 'dindin'
+    database: 'controle_de_gastos'
 })
 
 module.exports = pool;
